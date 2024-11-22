@@ -1,0 +1,138 @@
+import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif; 
+} 
+ul{
+    margin: 0;
+    padding: 0;
+}
+ li{
+    list-style: none;
+ }
+ body{
+    background: rgb(44, 43, 43);
+    color: white;
+ }
+
+/************ HEADER ********** */
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(48, 46, 46);
+}
+nav.nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+nav.nav ul li{
+    font-size: 0.6rem;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+nav.nav h2{
+    width: 40%;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* *************SeCTION PRINCIPALE ******** */
+.sectionprincipale{
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    padding-left: 10px;
+}
+
+.left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+    padding: 0;
+}
+.left h1{
+    font-size: 3.5rem;
+    width: 40%;
+    margin-top: 0;
+
+}
+.left-container h3{
+    color: rgb(96, 96, 228);
+   margin-top: -35px;
+}
+.left-container p {
+    margin-top: -15px;
+}
+.rigth{
+    width: 60%;
+    padding: 20px;
+}
+.rigth img{
+    width: 100%;
+    height: 100%;
+}
+/* *************FOOTER******************* */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    height: 200px;
+    border-radius: 20px;
+}
+footer h4{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px;
+    margin: 0;
+}
+.technologie{
+    width: 20%;
+}
+.technologie ul{
+    width: 85%;
+    margin: auto;
+    
+}
+.technologie li{
+    background: rgb(84, 84, 218);
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 0.6rem;
+
+}
+.partenaire h4{
+    margin: 5px 0;
+}
+.partenaire-logo{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partenaire{
+    width: 60%;
+}
+
+.logo-container{
+    margin-top: 15px;
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   height: 70px;
+}
+.logo-container img{
+    width: 55px;
+    height: 55px;
+}
